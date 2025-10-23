@@ -1,0 +1,102 @@
+.to-do-list {
+  font-family: "Poppins", Arial, sans-serif;
+  text-align: center;
+  margin-top: 80px;
+  background: #191c22;
+  padding: 40px 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin-inline: auto;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.7);
+}
+
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 25px;
+  color: #ededed;
+  letter-spacing: 1px;
+}
+
+
+input[type="text"] {
+  font-size: 1.4rem;
+  padding: 10px 15px;
+  border: 2px solid #32363f;
+  border-radius: 8px;
+  background: #23262b;
+  color: #ededed;
+  outline: none;
+  width: 65%;
+  transition: 0.3s border-color, 0.3s box-shadow;
+}
+
+input[type="text"]:focus {
+  border-color: #00b4d8;
+  box-shadow: 0 0 10px #00b4d830;
+}
+
+button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  color: #ededed;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.add-button {
+  background-color: #246af5;
+}
+.add-button:hover {
+  background-color: #153a75;
+}
+
+.delete-button {
+  background-color: #e63946;
+}
+.delete-button:hover {
+  background-color: #a82429;
+}
+
+.move-button {
+  background-color: #777a81;
+}
+.move-button:hover {
+  background-color: #32363f;
+}
+
+
+ol {
+  padding: 0;
+  margin-top: 30px;
+}
+
+li {
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: #20242a;
+  margin-top: 12px;
+  border: 2px solid #32363f;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.18);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 18px rgba(36,106,245,0.11);
+}
+
+.text {
+  flex: 1;
+  text-align: left;
+  color: #ededed;
+  word-break: break-word;
+}
